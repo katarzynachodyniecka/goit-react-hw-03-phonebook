@@ -1,0 +1,40 @@
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 1rem;
+}
+
+.contacts__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: #d9a141;
+  width: 100%;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
+.contacts__name {
+  font-weight: 600;
+}
+
+.contacts__number {
+  font-weight: 300;
+  margin-bottom: 0.5rem;
+}
+
+.contacts__button {
+  padding: 0.5rem 1rem;
+  background-color: #033649;
+  border-radius: 1rem;
+  color: white;
+}
+
+.contacts__button:hover {
+  background-color: #033649;
+  outline: 2px solid black;
+cursor: pointer;
+}
